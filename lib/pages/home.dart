@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
               padding: const EdgeInsets.fromLTRB(0,420.0,0,0),
               child: Column(
                 children:<Widget>[
-                  FlatButton.icon(
+                  TextButton.icon(
                       onPressed: () async {
                          dynamic result = await Navigator.pushNamed(context, '/location');
                           setState(() {
