@@ -22,6 +22,7 @@ class _HomeState extends State<Home> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image:AssetImage('assets/$bgImage'),
+                fit: BoxFit.fitWidth,
               ),
             ),
             child: Padding(
